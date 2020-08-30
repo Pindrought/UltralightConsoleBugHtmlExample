@@ -1,0 +1,49 @@
+html 
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body 
+{
+    margin: 0;
+    background-color:rgba(0, 0, 0, 0);;
+    width: 100% - 10px;
+    height: calc(100% - 10px);
+}
+
+
+#consolelog
+{
+    width: calc(100% - 10px);
+    height: calc(100% - 26px);
+    color: rgb(75, 220, 75);
+    font-weight: bolder;
+    border: 4px solid rgb(65, 145, 65);
+    background-color: rgb(25, 35, 25);
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+
+input
+{
+    width: calc(100% - 10px);
+    color: rgb(75, 220, 75);
+    border: 4px solid rgb(65, 145, 65);
+    background-color: rgb(25, 35, 25);
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span
+{
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
